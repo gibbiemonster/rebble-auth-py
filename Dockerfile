@@ -6,5 +6,5 @@ WORKDIR /code
 COPY pyproject.toml uv.lock .python-version ./
 RUN uv sync --frozen
 COPY . .
-ENV FLASK_APP=auth FLASK_ENV=development
+ENV FLASK_APP=auth FLASK_ENV=development FLASK_DEBUG=1
 CMD ["flask", "run", "-h", "0.0.0.0"]
