@@ -39,15 +39,6 @@ wheels = [
 ]
 
 [[package]]
-name = "cachelib"
-version = "0.17.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/c6/f4/b20875916b83f68775093554ce2544b12255396ba69abd93d8903cce0feb/cachelib-0.17.0.tar.gz", hash = "sha256:f3c7dc8d3c1132ab699681ffdf8a52d341d9425ac1401c538cf0b1d87b1677c8", size = 135529, upload-time = "2026-08-24T00:40:51.851Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/f5/87/9110494f2816d3f2907ac9a0a0a5387f34bc4fa9755721ad09f0a2c99e9b/cachelib-0.17.0-py3-none-any.whl", hash = "sha256:f83909b6f78741c3a5d76d292d13bf24964ffb13e00ea1d18f92e20599766ce0", size = 28221, upload-time = "2026-08-24T00:40:50.237Z" },
-]
-
-[[package]]
 name = "certifi"
 version = "2026.10.23"
 source = { registry = "https://pypi.org/simple" }
@@ -348,21 +339,6 @@ wheels = [
 ]
 
 [[package]]
-name = "flask-oauthlib"
-version = "0.9.6"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "cachelib" },
-    { name = "flask" },
-    { name = "oauthlib" },
-    { name = "requests-oauthlib" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/75/f2/54a551d00a39dac9aa58d97b45e3c05051e7eea8ed686e4b6be91fc075a6/Flask-OAuthlib-0.9.6.tar.gz", hash = "sha256:5bb79c8a8e670c2eb4cb553dfc3283b6c8d1202f674934676dc173cee94fe39c", size = 37253, upload-time = "2020-09-07T03:20:32.408Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/09/d8/f272aae56f12cf5f2f84ca7340e17be7f2e5e880f914838afb1b3ef045c1/Flask_OAuthlib-0.9.6-py3-none-any.whl", hash = "sha256:a5c3b62959aa1922470a62b6ebf4273b75f1c29561a7eb4a69cde85d45a1d669", size = 40184, upload-time = "2020-09-07T03:20:30.926Z" },
-]
-
-[[package]]
 name = "flask-sqlalchemy"
 version = "3.1.1"
 source = { registry = "https://pypi.org/simple" }
@@ -588,15 +564,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/81/99/157e10966b033b363aeda5263e82596ee232a0b1d082fdbf90aa417ff083/markupsafe-3.0.4-cp315-cp315t-win32.whl", hash = "sha256:e49fb0d1ce92cfa0cb198cc5b1b11cdf9d0638658e2a2db2687e39db7c87fc78", size = 14300, upload-time = "2026-10-02T23:06:53.241Z" },
     { url = "https://files.pythonhosted.org/packages/33/05/55884815414c9706a23deca150b72c25a62109e65b0b6ce232077802c719/markupsafe-3.0.4-cp315-cp315t-win_amd64.whl", hash = "sha256:4f6e0852a0283b1b1fd776eeb7b766a5f440b3e2bd31ab51af3b400585f3965c", size = 14522, upload-time = "2026-10-02T23:06:54.729Z" },
     { url = "https://files.pythonhosted.org/packages/92/f9/ecbde7149e95b8a0f18e16d5d747f7dc06049d5da2e4f77f6f5e4a1f46a8/markupsafe-3.0.4-cp315-cp315t-win_arm64.whl", hash = "sha256:39dbacefc411633db5b4378b066a9aca70a3d7e2922c9e578d825f844026eeba", size = 14417, upload-time = "2026-10-02T23:06:56.246Z" },
-]
-
-[[package]]
-name = "oauthlib"
-version = "2.1.0"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/df/5f/3f4aae7b28db87ddef18afed3b71921e531ca288dc604eb981e9ec9f8853/oauthlib-2.1.0.tar.gz", hash = "sha256:ac35665a61c1685c56336bda97d5eefa246f1202618a1d6f34fccb1bdd404162", size = 128807, upload-time = "2018-05-22T10:21:06.361Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/e6/d1/ddd9cfea3e736399b97ded5c2dd62d1322adef4a72d816f1ed1049d6a179/oauthlib-2.1.0-py2.py3-none-any.whl", hash = "sha256:d883b36b21a6ad813953803edfa563b1b579d79ca758fe950d1bc9e8b326025b", size = 121792, upload-time = "2018-05-22T10:21:04.971Z" },
 ]
 
 [[package]]
@@ -907,15 +874,6 @@ wheels = [
 ]
 
 [[package]]
-name = "pyjwt"
-version = "2.15.1"
-source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/43/ea/5194e52748b0da83d71e082d75496eaec6e58f419f5e184786ded517e6a9/pyjwt-2.15.1.tar.gz", hash = "sha256:4f259e80cdfb6b3fc18a7de51fd1ef9ec79652f25019bae68975ca2468a34df8", size = 121252, upload-time = "2026-09-28T18:40:42.598Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/50/ca/44de4e75f8aadc457f0634be3b542815078ded46dca30efb960edeecad6e/pyjwt-2.15.1-py3-none-any.whl", hash = "sha256:42d59d631f7768a1028a64c7ff581a9bf7519804daf91fc5b6c56e30eec5e193", size = 33860, upload-time = "2026-09-28T18:40:41.429Z" },
-]
-
-[[package]]
 name = "pytest"
 version = "9.1.1"
 source = { registry = "https://pypi.org/simple" }
@@ -942,10 +900,10 @@ dependencies = [
     { name = "flask-cors" },
     { name = "flask-login" },
     { name = "flask-migrate" },
-    { name = "flask-oauthlib" },
     { name = "flask-sqlalchemy" },
     { name = "flask-wtf" },
     { name = "gunicorn" },
+    { name = "joserfc" },
     { name = "opentelemetry-exporter-otlp-proto-http" },
     { name = "opentelemetry-instrumentation-flask" },
     { name = "opentelemetry-instrumentation-jinja2" },
@@ -953,8 +911,8 @@ dependencies = [
     { name = "opentelemetry-sdk" },
     { name = "psycopg", extra = ["binary"] },
     { name = "pydiscourse" },
-    { name = "pyjwt" },
     { name = "redis" },
+    { name = "requests" },
     { name = "sqlalchemy" },
     { name = "stripe" },
 ]
@@ -973,10 +931,10 @@ requires-dist = [
     { name = "flask-cors", specifier = ">=6.0.5" },
     { name = "flask-login", specifier = ">=0.6.3" },
     { name = "flask-migrate", specifier = ">=4.1.0" },
-    { name = "flask-oauthlib", specifier = ">=0.9.6" },
     { name = "flask-sqlalchemy", specifier = ">=3.1.1" },
     { name = "flask-wtf", specifier = ">=1.3.0" },
     { name = "gunicorn", specifier = ">=26.2.0" },
+    { name = "joserfc", specifier = ">=1.7.7" },
     { name = "opentelemetry-exporter-otlp-proto-http", specifier = ">=1.45.1" },
     { name = "opentelemetry-instrumentation-flask", specifier = ">=0.66b1" },
     { name = "opentelemetry-instrumentation-jinja2", specifier = ">=0.66b1" },
@@ -984,8 +942,8 @@ requires-dist = [
     { name = "opentelemetry-sdk", specifier = ">=1.45.1" },
     { name = "psycopg", extras = ["binary"], specifier = ">=3.3.6" },
     { name = "pydiscourse", specifier = ">=1.7.0" },
-    { name = "pyjwt", specifier = ">=2.15.1" },
     { name = "redis", specifier = ">=8.1.0" },
+    { name = "requests", specifier = ">=2.34.2" },
     { name = "sqlalchemy", specifier = ">=2.0,<2.1" },
     { name = "stripe", specifier = ">=16.0.0" },
 ]
@@ -1018,19 +976,6 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/ac/c3/e2a2b89f2d3e2179abd6d00ebd70bff6273f37fb3e0cc209f48b39d00cbf/requests-2.34.2.tar.gz", hash = "sha256:f288924cae4e29463698d6d60bc6a4da69c89185ad1e0bcc4104f584e960b9ed", size = 142856, upload-time = "2026-05-14T19:25:27.735Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/a0/f4/c67b0b3f1b9245e8d266f0f112c500d50e5b4e83cb6f3b71b6528104182a/requests-2.34.2-py3-none-any.whl", hash = "sha256:2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0", size = 73075, upload-time = "2026-05-14T19:25:26.443Z" },
-]
-
-[[package]]
-name = "requests-oauthlib"
-version = "1.1.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "oauthlib" },
-    { name = "requests" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/62/49/88b3b9019c649f63e722208dc540dbcb144c6f53e24bf438117bec8e64dc/requests-oauthlib-1.1.0.tar.gz", hash = "sha256:eabd8eb700ebed81ba080c6ead96d39d6bdc39996094bd23000204f6965786b0", size = 72369, upload-time = "2019-01-09T15:14:53.027Z" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/74/d2/91fd85529288418f81e9ed9347b1c548df09327059515cac39e1727b349f/requests_oauthlib-1.1.0-py2.py3-none-any.whl", hash = "sha256:be76f2bb72ca5525998e81d47913e09b1ca8b7957ae89b46f787a79e68ad5e61", size = 21414, upload-time = "2019-01-09T15:14:57.896Z" },
 ]
 
 [[package]]
