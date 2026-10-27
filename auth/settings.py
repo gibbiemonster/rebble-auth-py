@@ -4,8 +4,9 @@ domain_root = environ.get('DOMAIN_ROOT')
 http_protocol = environ.get('HTTP_PROTOCOL', 'https')
 
 database_url = environ['DATABASE_URL']
-if database_url.startswith('postgres://'):
-    database_url = 'postgresql://' + database_url[len('postgres://'):] # todo: change in gcp?
+for scheme in ('postgres://', 'postgresql://'):
+    if database_url.startswith(scheme):
+        database_url = 'postgresql+psycopg://' + database_url[len(scheme):] # todo: change in gcp?
 
 config = {
     'SECRET_KEY': environ['SECRET_KEY'],
@@ -35,7 +36,6 @@ config = {
     'STRIPE_WEBHOOK_KEY': environ.get('STRIPE_WEBHOOK_KEY'),
     'STRIPE_MONTHLY_PLAN': environ.get('STRIPE_MONTHLY_PLAN'),
     'STRIPE_ANNUAL_PLAN': environ.get('STRIPE_ANNUAL_PLAN'),
-    'HONEYCOMB_KEY': environ.get('HONEYCOMB_KEY', None),
     'DISCOURSE_SECRET': environ.get('DISCOURSE_SECRET', None),
     'DISCOURSE_URL': environ.get('DISCOURSE_URL', f"{http_protocol}://forum.{domain_root}"),
     'RETURN_DEV_PORTAL': f'{http_protocol}://dev-portal.{domain_root}',
