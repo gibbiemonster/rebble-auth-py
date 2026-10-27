@@ -82,5 +82,6 @@ uv run python serve_debug.py
 ```
 
 This will bring up the server in single-threaded, synchronous mode
-with debugging enabled. In production, `serve_gevent` is used instead,
-which runs the server in asynchronous mode with debugging disabled.
+with debugging enabled. In production, the Docker image
+(`Dockerfile.cloudrun`) runs it under gunicorn instead, with debugging
+disabled.
